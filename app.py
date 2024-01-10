@@ -36,6 +36,7 @@ def schoolmeal():
                 ]
             }
         }
+        
     elif content == "내일 급식" or content == "내일급식" or content == "ㄴㅇ" or content == "ㄴㅂ" or content == "sq":
         dataSend = {
             "version" : "2.0",
