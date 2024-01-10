@@ -56,7 +56,7 @@ def schoolmeal():
                 "outputs" : [
                     {
                         "simpleText" : {
-                            "text" : "잘못된 발화입니다.\n'도움말'을 보내서 발화 방법을 확인해주세요."
+                            "text" : "잘못된 명령어입니다."
                         }
                     }
                 ]
