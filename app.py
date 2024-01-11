@@ -35,7 +35,7 @@ def schoolmeal():
         'Friday':"오므라이스&하이스S\n유부장국\n참나물오리엔탈무침\n배추김치\n귤\n떡갈비&돈가스소스\n(1069kcal)",
     }
 
-    if content == "오늘 급식" or content == "오늘급식" or content == "ㅇㄴ" or content == "ㅂ" or content == "ds":
+    if content == "오늘 급식" or content == "오늘급식":
         dataSend = {
             "version" : "2.0",
             "template" : {
@@ -48,7 +48,7 @@ def schoolmeal():
                 ]
             }
         }
-    elif content == "내일 급식" or content == "내일급식" or content == "ㄴㅇ" or content == "ㄴㅂ" or content == "sq":
+    elif content == "내일 급식" or content == "내일급식":
         dataSend = {
             "version" : "2.0",
             "template" : {
